@@ -1,0 +1,5 @@
+{
+  "iqSuccess" : "<i class='fas fa-check'>",
+  "iqWrong" : "<i class='fas fa-search'></i>",
+  "iqFail" : "<i class='fas fa-times-circle'></i>"
+}
