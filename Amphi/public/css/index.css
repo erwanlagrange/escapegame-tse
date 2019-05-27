@@ -1,0 +1,151 @@
+.container {
+    width:100%;
+    overflow:hidden;
+}
+.box {
+    width:20%;
+    height:150px;
+    float:left;
+}
+
+.grey{
+    color: grey;
+}
+.red{
+    color:#FE0801;
+    border-color:#FE0801;
+}
+.green{
+    color:#35FE01;
+    border-color:#35FE01;
+}
+.blue{
+    color:#0157FE;
+    border-color:#0157FE;
+}
+.yellow{
+    color:#FEEB01;
+    border-color:#FEEB01;
+}
+.violet{
+    color:#E301FE;
+    border-color:#E301FE;
+}
+
+.red:hover{
+    color:#FE0801;
+    border-color:#FE0801;
+}
+.green:hover{
+    color:#35FE01;
+    border-color:#35FE01;
+}
+.blue:hover{
+    color:#0157FE;
+    border-color:#0157FE;
+}
+.yellow:hover{
+    color:#FEEB01;
+    border-color:#FEEB01;
+}
+.violet:hover{
+    color:#E301FE;
+    border-color:#E301FE;
+}
+
+.red:active{
+    background-color:#FE0801;
+    border-color:#FE0801;
+}
+.green:active{
+    color:#35FE01;
+    border-color:#35FE01;
+}
+.blue:active{
+    color:#0157FE;
+    border-color:#0157FE;
+}
+.yellow:active{
+    color:#FEEB01;
+    border-color:#FEEB01;
+}
+.violet:active{
+    color:#E301FE;
+    border-color:#E301FE;
+}
+body{
+    text-align: center;
+    background-color: black;
+}
+
+h3, p{
+    color: lightgray;
+}
+
+h2{
+    color: lightgray;
+}
+
+
+html, body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-size: 84px;
+}
+
+.links > form  {
+    padding        : 0 25px;
+    font-size      : 13px;
+    font-weight    : 600;
+    letter-spacing : .1rem;
+    text-decoration: none;
+    text-transform : uppercase;
+    display        : inline-block;
+}
+
+.links > form > button{
+    background-color: #1b1e21;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+.links > form > button {
+    background-color: gray();
+}
+.links > form > button:hover {
+    background-color: darkgrey;
+}
+
+
+/*ANIMATION TEXT WELCOME*/
