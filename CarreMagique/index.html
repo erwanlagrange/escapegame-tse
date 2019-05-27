@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carré Magique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>MAGIC SQUARE</h1>
+    <div class="scene">
+        <div class="rotating-box">
+            <div class="face back"></div>
+            <div class="face left"></div>
+            <div class="face right"></div>
+            <div class="face top"></div>
+            <div class="face bottom"></div>
+            <div class="face front"></div>
+        </div>
+    </div>
+    <p id="rotating-speed">65</p>
+    <div class="gridans" id="img">
+        <div class="ans A" style=width:90px;height:55px;">A<input type="text" class="response" name="A" id="responseA">
+            <div class="msg" id="msgA"></div>
+        </div>
+        <div class="ans B" style=width:90px;height:55px;">B<input type="text" class="response" name="B" id="responseB">
+            <div class="msg" id="msgB"></div>
+        </div>
+        <div class="ans C" style=width:90px;height:55px;">C<input type="text" class="response" name="C" id="responseC">
+            <div class="msg" id="msgC"></div>
+        </div>
+        <div class="ans D" style=width:90px;height:55px;">D<input type="text" class="response" name="D" id="responseD">
+            <div class="msg" id="msgD"></div>
+        </div>
+        <div class="ans E" style=width:90px;height:55px;">E<input type="text" class="response" name="E" id="responseE">
+            <div class="msg" id="msgE"></div>
+        </div>
+    </div>
+</body>
+<script src="script/jquery.js"></script>
+<script src="script/index.js"></script>
+
+</html>

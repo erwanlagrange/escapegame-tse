@@ -1,0 +1,161 @@
+body{
+    background-image: url('img/space.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+}
+
+h1{
+    font-family: 'CF Glitch City';
+    color:white;
+    position: absolute;
+    top:3vh;
+    left:calc(50vw - 149.6px);
+    text-align: center;
+}
+
+.msg{
+    font-family: 'Arial';
+    color:red;
+}    
+
+#rotating-speed {
+    font-family: 'CF Glitch City';
+    font-size: 85px;
+    color:white;
+    position: absolute;
+    top:20vh;
+    left:calc(calc(50vw - 62.14px));
+    display: none;
+}
+
+.scene{
+    position: absolute;
+    top:40%;
+    left:50%;
+    width: 201px;
+    height: 201px;
+    transform: translate(-50%,-50%);
+    perspective: 400px;
+}
+
+.rotating-box{
+    color:#ffff;
+    font-size: 60px;
+    text-align: center;
+    animation: rotate 30s linear infinite;
+    transform-style: preserve-3d;
+}
+
+.face{
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.front{
+    transform: translateZ(100px);
+    background-image:url('img/temp3_face3.jpg');
+}
+
+
+.back{
+    transform: translateY(180deg);
+    transform:  translateZ(-100px);
+    background-image:url('img/temp3_face2.jpg')
+}
+
+.left{
+    transform: rotateY(90deg) translateX(-100px);
+    background-image: url('img/temp3_face1.jpg');
+    transform-origin: left;
+}
+
+.right{
+    transform: rotateY(90deg) translateX(100px);
+    background-image:url('img/temp3_face4.jpg');
+    transform-origin: right;
+}
+
+.top{
+    transform: rotateX(-90deg) translateY(-100px);
+    background-color: black;
+    transform-origin: top;
+}
+
+.bottom{
+    transform: rotateX(90deg) translateY(100px);
+    background-color:black;
+    transform-origin: bottom;
+}
+
+@keyframes rotate{
+    0%{transform: rotateY(0);}
+    100%{transform: rotateY(360deg);}
+}
+
+@font-face {
+    font-family: 'CF Glitch City';
+    src: url('CFGlitchCity-Regular.woff2') format('woff2'),
+        url('CFGlitchCity-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.A {
+    grid-row: 3/4;
+    grid-column: 1/2
+}
+
+.B {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.C {
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.D {
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+.E {
+    grid-row: 3/4;
+    grid-column: 5/6;
+}
+
+#img {
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    top:65vh;
+    left: calc(50vw - 225px);
+    background-image: none;
+    background-size: contain;
+    background-position: center;
+}
+
+.ans{
+    font-family: 'CF Glitch City';
+    color:white;
+    text-align: center;
+}
+.ans input{
+    text-align: center;
+    font-family: 'CF Glitch City';
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    border-radius: 2px;
+    color:white;
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+}
