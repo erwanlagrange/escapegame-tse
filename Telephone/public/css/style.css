@@ -1,0 +1,123 @@
+#divTel{
+    background-image:url(../img/iphone.png);
+    height:900px;
+    background-repeat:no-repeat;
+    padding-top:120px;
+    padding-left:155px;
+}
+
+#ecranTel{
+
+    background-color:#e7e8ed;
+    width:326px;
+    height:580px;
+}
+
+#ecranTelVerrouiller{
+  width:326px;
+  height:580px;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+#ecranTelInconnu{
+    background-image:url(../img/imageinconnu.jpg);
+
+    background-repeat:no-repeat;
+
+    width:326px;
+    height:580px;
+}
+
+#ecranTheo{
+  width:326px;
+  height:580px;
+  background-image:url(../img/imageTheo.jpg);
+  background-repeat:no-repeat;
+
+
+}
+
+audio{
+  margin-top:250px;
+}
+
+
+#input{
+  margin-top: 100px;
+    font-size:40px;
+    max-width:320px;
+    border:none;
+    background-color:#e7e8ed;
+    text-align: center;
+}
+
+#input:focus {
+     outline:  none;
+}
+
+.btn{
+border-radius: 50%;
+border:solid #5d6383 0.7px;
+font-size:25px ;
+background-color:#e7e8ed;
+height:65px;
+width:65px;
+
+}
+
+.btnCall{
+  width: 30px;
+
+}
+#btnCall{
+  background-color:#4dd863;
+
+}
+.btnInconnu{
+  width: 60px;
+
+}
+#btnInconnu{
+  background-color:red;
+  height:85px;
+  width:85px;
+
+
+
+}
+.divInconnu{
+  padding-top:150px;
+}
+
+
+#test{
+  height:250px;
+  background-image:url(../img/hautTel.jpg);
+  background-repeat:no-repeat;
+
+}
+
+#hautTelVerrouiller{
+  height:130px;
+  background-image:url(../img/testhautTel.png);
+  background-repeat:no-repeat;
+
+}
+#logo{
+  height:250px;
+  background-image:url(../img/logo_TSE_01.png);
+  background-repeat:no-repeat;
+  /*image réalisé par sofiane et naima j'etais obligé de le marquer sinon il me tape*/
+}
+
+html{
+
+  max-width: 650px;
+
+}
+
+#btnDeverrouiller{
+
+  border-radius:10px;
+  width: 70%;
+}
