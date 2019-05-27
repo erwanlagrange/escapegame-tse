@@ -1,0 +1,6 @@
+/frontend/node_modules/
+
+/backend/vendor/
+/backend/.settings/
+/backend/.buildpath
+/backend/.project

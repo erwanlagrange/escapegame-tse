@@ -1,0 +1,17 @@
+{
+  "name": "workshop_tse_bibli_front",
+  "version": "1.0.0",
+  "description": "Frontend part of the fake Mootse app for the TSE escape game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pierre Jarriges & Manel Khoucha",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "browserify": "^16.2.3",
+    "vue": "^2.6.10"
+  }
+}

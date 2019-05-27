@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mootse - Telecom Saint Etienne</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style/style.css"/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark" id="navBar">
+        <div class="navbar navbar-collapse justifiy-content-between">
+          <ul class="navbar-nav" id="navbarInfosItems">
+            <li>
+              <img src="assets/picto-menu.png" alt="picto menu" height=16>
+            </li>
+            <li class="">
+              <img src="assets/picto-tel.png" alt="picto tel" height=16>
+            </li>
+            <li>
+              <span >Call us : +33 (0)4 77 91 58 88</span>
+            </li>
+            <li>
+              <img src="assets/picto-mail.png" alt="picto mail" height=16> <span>E-mail :</span>
+            </li>
+            <li>
+              <a href="mailto:contact@telecom-st-etienne.fr">contact@telecom-st-etienne.fr</a>
+            </li>
+          </ul>
+          <span id="profileNavItem">You are not logged in</span>
+        </div>
+
+      </nav>
+        <div id="header-title">
+          <div id="headerFlex">
+            <div>
+              <img alt="logo telecom saint etienne" src="assets/logo-telecom.png"/>
+            </div>
+            <div>
+              <span id="header-lang-span">Français (fr)</span>
+            </div>
+          </div>
+      </div>
+    </header>
+
+    <main class="container-fluid" id="modular-container">
+
+      <!-- LOGIN FORM - apparaît si l'utilisateur n'est pas encore connecté -->
+      <section id="loginView">
+        <div class="card" id="loginFormCard">
+          <div class="card-header">
+            <img src="assets/logo-telecom.png" width=700/>
+          </div>
+          <div class="card-body">
+            <div id="error"></div>
+            <form>
+              <div class="form-group">
+                <label for="nom">Login :</label>
+                <input type="text" id="loginVal" name="login" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="connection">Password :</label>
+                <input type="password" id="passwordVal" name="password" class="form-control">
+              </div>
+              <div class="form-group">
+                  <input type="button" id="loginBtn" value="Log in" class="btn"/>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- PLANNING - apparaît une fois que l'utilisateur est connecté, et le login form disparaît. -->
+      <section id="planningView">
+        <header class="row">
+          <div class="col-lg-12">
+            <h1 class="display-5">MOOTSE: le Moodle de Télécom Saint-Etienne</h1>
+            <div>
+              <nav>
+                <span><a href="index.html">Accueil</a></span> /
+                <span><a href="#">Pages du site</a></span> /
+                <span><a href="#"><b>Calendrier</b></a></span> /
+                <span>Septembre 2019</span>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <div class="row">
+          <table class="table table-bordered col-lg-8" id="planningContainer">
+              <thead class="thead-light">
+              <tr>
+                  <th colspan="2" class="h3">Planning</th>
+              </tr>
+              </thead>
+
+              <tbody id="planning-table">
+                <!-- Ajax content -->
+              </tbody>
+          </table>
+          <div class="col-lg">
+
+          </div>
+          <aside class="col-lg-3" id="infoSidebar">
+            <div class="card">
+              <div class="card-header">
+                <h2 class="h1"><em>ESCAPE GAME</em></h2>
+                <h3>Etape 2 !</h3>
+              </div>
+              <div class="card-body">
+                <p>
+                  Félicitations, tu as résolu le mystère de l'amphithéâtre et réussi à accéder au compte Mootse de Théo tel le plus coriace des hackers !
+                  <br /><br />
+                  À présent tu vas devoir suivre les traces de Théo en visitant tous les endroits ou il s'est rendu pendant sa journée. À toi de jouer !
+                </p>
+              </div>
+            </div>
+
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="centercolumn">
+
+       <h1>Contact us</h1>
+
+       <h2> 25 rue du Dr Remy Annino 42000 Saint-Etienne, FR
+        Phone : +33 (0)4 77 91 58 88 </h2>
+        <h3>contact@telecom-st-etienne.fr</h3>
+        Follow us
+    </div>
+  </footer>
+  <script src="bundle.js"></script>
+</body>

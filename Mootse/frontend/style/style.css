@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+#navBar {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  margin: 0;
+  width: 100%;
+  background-color: #059;
+  color: white;
+  font-size: .9em;
+}
+
+#navBar img {
+  margin: 0 5px;
+}
+
+#navBar a {
+  color:white;
+}
+
+#navBar a:hover {
+  text-decoration: underline;
+  color: white;
+}
+#navbar:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#header-title {
+  position: relative;
+  top: 50px;
+  border-bottom: 1px solid #ccc;
+  /* overflow: auto; */
+}
+
+#headerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  color: #d00;
+  font-size: 1.3em;
+  padding: 10px 0;
+}
+
+#headerFlex>div>img {
+  height: 80px;
+}
+
+#modular-container {
+  width: 100%;
+  position: relative;
+  top: 50px;
+  padding: 10px;
+}
+
+#loginView {
+  width:700px;
+  margin: 30px auto;
+  position: relative;
+}
+
+#loginBtn {
+  background-color: #059;
+  color: white;
+  font-weight: 600;
+  border-radius: 0;
+}
+
+#planningView {
+  width: 1500px;
+  margin: 0 auto;
+  max-width: 100%;
+  /* border: solid red; */
+}
+#planningView>header {
+  border: 1px solid #ccc;
+  padding: 30px;
+  color: #d00;
+}
+
+#planningView>* {
+    margin: 20px;
+    text-align: center;
+}
+
+#planningContainer {
+  height: 380px;
+}
+
+#infoSidebar {
+  height: 380px;
+  color: #e30;
+  font-weight: 600;
+  font-style: italic;
+  padding: 0;
+}
+
+#infoSidebar .card-header {
+  background-image: url("../assets/bg-telecom.jpg");
+  background-size: cover;
+  background-position:center;
+  height: 150px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+}
+#infoSidebar .card-body {
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+#infoSidebar>div {
+  height: 100%;
+}
+
+input, label {
+    display: block;
+    width: 100%;
+}
+
+.hourCol{
+    text-align: center;
+    color:black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.contentCol{
+    text-align:center;
+    font-size: 1.2em;
+
+
+}
+
+form {
+    /* Pour le centrer dans la page */
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+
+    /* Pour voir les limites du formulaire */
+    padding: 45px;
+    border: 1px solid #ccc;
+    /*border-radius: 1em;*/
+}
+
+footer {
+    padding:25px 100px;
+    background-color: rgba(0, 0, 0, 0.75); /*Couleur de fond*/
+    color: white;
+    height: 180px;
+    text-align: center;
+    margin: 100px 0 0 0;
+    width: 100%;
+}
+
+footer h1{
+    color:  #dd0000;
+}
+
+footer h2{
+   font-family: georgia, serif;
+    font-size: medium;
+}
+footer h3{
+    font-family: georgia, serif;
+    font-size: medium;
+}

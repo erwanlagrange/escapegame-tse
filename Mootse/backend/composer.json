@@ -1,0 +1,12 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"TSE\\workshop_tse_bibli\\" : "src/"
+		}
+	},
+	"name" : "TSE/workshop_tse_bibli",
+	"require" : {
+		"php" : ">=7.2",
+		"phpunit/phpunit": "^8.0"
+	}
+}
