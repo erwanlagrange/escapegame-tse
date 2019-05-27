@@ -1,6 +1,6 @@
 # escapegame-tse
 Escape game TSE
-test JR
+Jean Rozé
 Erwan Lagrange
 Samuel Ogier
 Auriane Cicuttini
