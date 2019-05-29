@@ -65,6 +65,7 @@
   position: relative;
 }
 
+
 #loginBtn {
   background-color: #059;
   color: white;
@@ -99,6 +100,7 @@
   font-weight: 600;
   font-style: italic;
   padding: 0;
+
 }
 
 #infoSidebar .card-header {
@@ -152,6 +154,7 @@ form {
 
 footer {
     padding:25px 100px;
+    bottom: 0;
     background-color: rgba(0, 0, 0, 0.75); /*Couleur de fond*/
     color: white;
     height: 180px;
@@ -172,3 +175,63 @@ footer h3{
     font-family: georgia, serif;
     font-size: medium;
 }
+
+
+
+
+/*Changements pour écran mobile*/
+
+@media (max-width: 480px) {
+
+  footer {
+    /*padding:25px 100px;*/
+    position: relative;
+    bottom: 0;
+    left : 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75); /*Couleur de fond*/
+    color: white;
+    height: 180px;
+    text-align: center;
+    margin: 100px 0 0 0;
+    width: 230%;
+  }
+
+
+  form {
+    /* Pour le centrer dans la page */
+    position: relative;
+    margin: 0 auto;
+    width: 650px;
+
+    /* Pour voir les limites du formulaire */
+    padding: 150px;
+    border: 1px solid #ccc;
+    /*border-radius: 1em;*/
+  }
+
+
+  .form-group {
+    font-size: 2em;
+  }
+
+  #loginBtn {
+    background-color: #059;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    border-radius: 0;
+  } 
+
+  .row {
+    width: 230%;
+  }
+
+
+}
+
+
+
+
+
+
