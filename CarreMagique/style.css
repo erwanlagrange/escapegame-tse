@@ -4,6 +4,7 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-color: black;
+    min-width: 320px;
 }
 
 h1{
@@ -159,3 +160,49 @@ h1{
     margin: 0 auto;
     width: 70px;
 }
+
+@media (max-width: 480px) {
+
+    #img {
+        display: grid;
+        position: absolute;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        top:65vh;
+        left: calc(57vw - 225px);
+        background-image: none;
+        background-size: contain;
+        background-position: center;
+    }
+
+   
+
+    h1{
+    font-family: 'CF Glitch City';
+    color:white;
+    position: absolute;
+    top:3vh;
+    left:calc(57vw - 149.6px);
+    text-align: center;
+    }
+
+
+    .scene{
+    position: absolute;
+    top:40%;
+    left:55%;
+    width: 201px;
+    height: 201px;
+    transform: translate(-50%,-50%);
+    perspective: 400px;
+    }
+
+}
+
+
+
+
+
+
+
+
