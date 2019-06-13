@@ -8,6 +8,7 @@ import csv
 import random
 import math
 
+from math import *
 from tkinter import *
 from tkinter.messagebox import *
 from tkinter.filedialog import *
@@ -48,8 +49,9 @@ def opentexte(nb_jpe): #Bouton ouverture fichier texte
     nb_participant = -1
     for line in f_input:
         nb_participant += 1
-    nb_equipe=round(nb_participant / nb_jpe)
-
+    nb_equipe=ceil(nb_participant / nb_jpe)
+    print(nb_equipe)
+    
     f_input.seek(0)
 
     for row in csv_input:
@@ -85,7 +87,6 @@ def opentexte(nb_jpe): #Bouton ouverture fichier texte
                 elif (j==3):
                     k="Jaune"
                 else:
-                    print("J : "+str(j))
                     k="Violet"
                 f_temp.write("Equipe "+str(i+1)+" "+k+ " : "+str(equipes[j+i*5])+"\n")
                 f_temp.write('\n')
